@@ -1,0 +1,187 @@
+
+
+/* NavBar Area: */
+.navbar{
+  width: 100%;
+  height: 60px;
+}
+
+.navbar a{
+  padding-left: 15px;
+}
+
+/*Hero Section:*/
+.row1{
+  background-image:url(images/background-final.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+.overlay{
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 9;
+}
+
+
+
+/* LEFT div content */
+
+.row1{
+padding-left: 30px;
+padding-top: 70px;
+}
+
+.row1 p{
+  padding-bottom: 10px;
+}
+
+
+
+
+/* RIGHT div - form: */
+
+.login{
+  width: min-content;
+  height: min-content;
+  padding: 20px;
+  background: rgba(95,191,251, 2);
+  margin-left: 210px;
+  margin-bottom: 20px;
+}
+
+.login h6{
+  text-align: center;
+  color: white;
+}
+
+.login input{
+  margin-bottom: 12px;
+  width: 270px;
+  padding: 5px;
+  border: none;
+}
+
+.login label{
+  color: white;
+}
+
+.login button{
+  background-color: #F6A440;
+  border: none;
+  font-size: 20px;
+  width: 270px;
+  color: white;
+  padding: 10px 35px;
+  font-family: sans-serif;
+}
+
+/* advatages section: */
+
+.advatages{
+  justify-content: center;
+}
+
+.advatage{
+  text-align: center;
+  width: 300px;
+  margin: 40px;;
+}
+
+/* CEO BANNER: */
+
+.ceo-banner{
+  background-image: url(images/second-banner-background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+
+}
+
+.overlay-2{
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 9;
+}
+
+
+.ceo-col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ceo-col img{
+  margin-top: 60px;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.content{
+  text-align: center;
+}
+
+@media (max-width: 992px){
+
+.login{
+
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+}
+
+
+
+/* Mobile Screen: */
+@media screen and (max-width: 600px){
+  .navbar{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .banner{
+    display: none;
+  }
+
+  .row1{
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .row1 .btn1{
+    padding: 8px 100px;
+  }
+
+  hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 70%;               
+    background-color:white;
+    height: 1px;
+    opacity: 10;
+    
+  }
+  
+  .login{
+    text-align: left;
+    height: min-content;
+    justify-content: center;
+    background: rgba(95,191,251, 2);
+  }
+
+  .rights-reserved{
+    font-size: 12px;
+  }
+}
+
+/* Desktop Screen: */
+@media screen and (min-width: 600px){
+  .mobile-banner{
+    display: none;
+  }
+}
